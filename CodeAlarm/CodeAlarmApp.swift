@@ -1,9 +1,3 @@
-//
-//  CodeAlarmApp.swift
-//  CodeAlarm
-//
-//  Created by Timo Kohlmann on 21.07.25.
-//
 
 import SwiftUI
 
@@ -11,7 +5,8 @@ import SwiftUI
 struct CodeAlarmApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabBarView()
+                .preferredColorScheme(.dark)
         }
     }
 }
